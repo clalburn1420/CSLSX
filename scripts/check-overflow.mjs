@@ -1,12 +1,10 @@
 // Finds pages that are wider than the viewport at narrow widths.
 // CLI: node scripts/check-overflow.mjs  (exits 1 and lists offenders)
-import { createServer } from "node:http";
 import { readFile, readdir, stat } from "node:fs/promises";
-import { join, extname, relative } from "node:path";
+import { serve } from "./serve-site.mjs";
+import { join, relative } from "node:path";
 import { pathToFileURL } from "node:url";
 import { chromium } from "playwright";
-
-const TYPES = { ".html": "text/html", ".css": "text/css", ".js": "text/javascript", ".webp": "image/webp", ".svg": "image/svg+xml", ".woff2": "font/woff2", ".mp3": "audio/mpeg" };
 
 async function htmlPages(dir, root = dir) {
   const out = [];
@@ -17,20 +15,6 @@ async function htmlPages(dir, root = dir) {
     else if (f.endsWith(".html") && !(await readFile(p, "utf8")).includes('http-equiv="refresh"')) out.push("/" + relative(root, p).replace(/\\/g, "/").replace(/index\.html$/, ""));
   }
   return out;
-}
-
-function serve(root) {
-  const server = createServer(async (req, res) => {
-    let p = join(root, decodeURIComponent(new URL(req.url, "http://x").pathname));
-    try {
-      if ((await stat(p)).isDirectory()) p = join(p, "index.html");
-      res.writeHead(200, { "content-type": TYPES[extname(p)] ?? "application/octet-stream" });
-      res.end(await readFile(p));
-    } catch {
-      res.writeHead(404).end();
-    }
-  });
-  return new Promise((resolve) => server.listen(0, () => resolve(server)));
 }
 
 /** Returns ["<path> @<width>px: <scrollWidth>px", ...] for every page wider than the viewport. */

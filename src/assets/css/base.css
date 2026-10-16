@@ -24,3 +24,5 @@ ul, ol { padding: 0; list-style: none; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .skip { position: absolute; left: var(--gut); top: -3rem; background: var(--ink); color: var(--paper); padding: .5rem .75rem; z-index: 10000; }
 .skip:focus { top: .5rem; }
+/* Author display rules (.slug etc.) would otherwise beat the UA's [hidden] rule. */
+[hidden] { display: none !important; }

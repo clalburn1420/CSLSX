@@ -120,3 +120,5 @@
 .gallery { padding-block: clamp(1rem, 3vw, 2rem); }
 .gallery__strip li { grid-column: span 4; aspect-ratio: 1; }
 @media (max-width: 760px) { .gallery__strip { row-gap: 12px; } }
+/* A playing embed lifts above the grain overlay (body::after, z-index 9999). */
+.player.is-playing { position: relative; z-index: 10000; }

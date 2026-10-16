@@ -41,7 +41,13 @@ needs `npx playwright install chromium`.
    ```
    {% player "youtube", "VIDEO_ID", "https://www.youtube.com/watch?v=VIDEO_ID" %}
    {% player "spotify", "album/ALBUM_ID", "https://open.spotify.com/album/ALBUM_ID" %}
+   {% player "soundcloud", "TRACK_NUMBER", "https://soundcloud.com/cslsx/track-name" %}
    ```
+
+   For SoundCloud, the second value is the track's number: on the track page choose
+   **Share → Embed**, and it's the digits after `tracks/` in the code shown. The third value
+   is the track's normal page address, which is where the link goes for anyone without
+   JavaScript.
 
 4. Commit and push to `main`. The site redeploys in about two minutes.
 
