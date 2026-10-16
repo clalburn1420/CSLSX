@@ -69,3 +69,50 @@
 @media (max-width: 760px) { .hero__rail { display: none; } }
 /* The source photo carries museum inventory marks on its left edge; crop them out. */
 .hero__img img { transform: scale(1.07); transform-origin: 100% 50%; }
+
+/* Inner pages */
+.page-head { padding-block: clamp(2.5rem, 7vw, 6rem) clamp(1.5rem, 4vw, 3rem); display: grid; gap: 1rem; }
+.prose { max-width: 62ch; display: grid; gap: 1.1em; }
+.prose img { width: 100%; }
+
+.releases { display: grid; }
+.release { padding-block: clamp(2rem, 5vw, 4rem); border-top: 1px solid var(--ink); row-gap: 1.5rem; align-items: start; }
+.release__num { grid-column: 1 / 2; }
+.release__cover { grid-column: 2 / 7; aspect-ratio: 1; }
+.release__text { grid-column: 8 / 13; display: grid; gap: 1rem; align-content: start; }
+
+.players { row-gap: clamp(2.5rem, 6vw, 5rem); }
+.players__item { grid-column: span 6; display: grid; gap: .75rem; align-content: start; }
+.players--video .players__item:first-child { grid-column: 1 / -1; }
+
+.player__frame { aspect-ratio: 1; }
+.players--video .player__frame, .prose .player--youtube .player__frame, .prose .player--vimeo .player__frame { aspect-ratio: 16 / 9; }
+.player__frame iframe { width: 100%; height: 100%; border: 0; display: block; background: var(--ink); }
+.player--spotify.is-playing .player__frame { aspect-ratio: auto; height: 352px; }
+.player--soundcloud.is-playing .player__frame { aspect-ratio: auto; height: 400px; }
+.player.is-playing .player__frame { background: var(--ink); }
+.player__blank { display: grid; place-items: center; height: 100%; }
+.player__bar { display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; padding-top: .6rem; }
+.player__play { border: 0; cursor: pointer; font: inherit; }
+
+.bio { padding-block: clamp(2.5rem, 7vw, 6rem); row-gap: clamp(2rem, 5vw, 4rem); }
+.bio__kicker { grid-column: 1 / -1; }
+.bio__quote { grid-column: 1 / 11; display: grid; gap: 1rem; }
+.bio__image { grid-column: 1 / 6; aspect-ratio: 4 / 5; }
+.bio__text { grid-column: 7 / 13; align-self: end; }
+
+.events, .contact, .lost { padding-block: clamp(2.5rem, 7vw, 6rem); display: grid; gap: clamp(1.5rem, 4vw, 3rem); }
+.events__none { font-size: clamp(2rem, 13vw, 15rem); white-space: normal; width: min-content; }
+.events__past { max-width: 46ch; }
+.contact__title { font-size: clamp(1.6rem, 8.6vw, 11rem); white-space: normal; }
+.contact__mail .l { font-size: min(var(--t-l), 5.4vw); }
+.lost__title { font-size: clamp(3.2rem, 15vw, 14rem); white-space: normal; }
+
+.post__image { margin-bottom: clamp(2rem, 5vw, 4rem); }
+.post__image .haze { max-width: 900px; }
+.prose .player { margin-block: 1rem; max-width: 640px; }
+.post__pager { margin-top: clamp(3rem, 8vw, 6rem); }
+
+@media (max-width: 760px) {
+  .players__item { grid-column: 1 / -1; }
+}

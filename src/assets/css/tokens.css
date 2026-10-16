@@ -22,7 +22,7 @@
   --body: 1.0625rem;   /* 17px — sentences */
   --t-m: clamp(1.25rem, 2vw, 1.6rem);
   --t-l: clamp(1.75rem, 4.2vw, 3.5rem);
-  --t-xl: clamp(2.6rem, 9.5vw, 9rem);
+  --t-xl: clamp(1.9rem, 9.5vw, 9rem);
 
   --font: "Archivo", "Arial Narrow", Arial, sans-serif;
 }

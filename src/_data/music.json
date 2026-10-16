@@ -1,7 +1,7 @@
 [
-  { "title": "Beyond The Haze", "provider": "spotify", "id": "album/58oZQt3djCiYGIIRwj1kgw", "url": "https://open.spotify.com/album/58oZQt3djCiYGIIRwj1kgw", "cover": "/assets/img/cover-58oZQt3djCiYGIIRwj1kgw.webp" },
-  { "title": "Everything Is Alright", "provider": "soundcloud", "id": "991250071", "url": "https://api.soundcloud.com/tracks/991250071", "cover": "/assets/img/sc-991250071.webp" },
-  { "title": "New Oblivion", "provider": "soundcloud", "id": "977336197", "url": "https://api.soundcloud.com/tracks/977336197", "cover": "/assets/img/sc-977336197.webp" },
-  { "title": "Everything Void: The Singles", "provider": "spotify", "id": "album/0i7ajmoD17irOPfC8QK0FX", "url": "https://open.spotify.com/album/0i7ajmoD17irOPfC8QK0FX", "cover": "/assets/img/cover-0i7ajmoD17irOPfC8QK0FX.webp" },
-  { "title": "Ritualize", "provider": "spotify", "id": "album/6zSPYImKXzl3s3V64GHExI", "url": "https://open.spotify.com/album/6zSPYImKXzl3s3V64GHExI", "cover": "/assets/img/cover-6zSPYImKXzl3s3V64GHExI.webp" }
+  {"title":"Beyond The Haze","provider":"spotify","id":"album/58oZQt3djCiYGIIRwj1kgw","url":"https://open.spotify.com/album/58oZQt3djCiYGIIRwj1kgw","cover":"/assets/img/cover-58oZQt3djCiYGIIRwj1kgw.webp"},
+  {"title":"Everything Is Alright","provider":"soundcloud","id":"991250071","url":"https://soundcloud.com/cslsx/everything-is-alright","cover":"/assets/img/sc-991250071.webp"},
+  {"title":"New Oblivion","provider":"soundcloud","id":"977336197","url":"https://soundcloud.com/cslsx/new-oblivion","cover":"/assets/img/sc-977336197.webp"},
+  {"title":"Everything Void: The Singles","provider":"spotify","id":"album/0i7ajmoD17irOPfC8QK0FX","url":"https://open.spotify.com/album/0i7ajmoD17irOPfC8QK0FX","cover":"/assets/img/cover-0i7ajmoD17irOPfC8QK0FX.webp"},
+  {"title":"Ritualize","provider":"spotify","id":"album/6zSPYImKXzl3s3V64GHExI","url":"https://open.spotify.com/album/6zSPYImKXzl3s3V64GHExI","cover":"/assets/img/cover-6zSPYImKXzl3s3V64GHExI.webp"}
 ]

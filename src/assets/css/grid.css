@@ -9,3 +9,5 @@
   :root { --cols: 4; }
   .grid > * { grid-column: 1 / -1 !important; }
 }
+/* Grid children default to min-width:auto (their longest word); let them shrink and wrap. */
+:where(.grid, .page-head, .prose, .events, .contact, .lost, .feature__text, .release__text, .players__item, .download__inner) > * { min-width: 0; }

@@ -1,7 +1,21 @@
 ---
 layout: layouts/base.njk
 ---
-<article>
-  <h1>{{ title }}</h1>
-  {{ content | safe }}
+<article class="post">
+  <header class="shell page-head">
+    <p class="kicker"><a href="/news/">News</a> — <time datetime="{{ page.date | isoDate }}">{{ page.date | dateFmt }}</time></p>
+    <h1 class="xl">{{ title }}</h1>
+  </header>
+  {% if image %}
+  <figure class="shell post__image"><div class="haze"><img src="{{ image }}" alt="" width="1200" height="800"></div></figure>
+  {% endif %}
+  <div class="shell"><div class="prose">{{ content | safe }}</div></div>
+  {%- set newer = collections.news | getNextCollectionItem(page) %}
+  {%- set older = collections.news | getPreviousCollectionItem(page) %}
+  <nav class="shell post__pager" aria-label="More news">
+    <ul class="rows">
+      {% if newer %}<li><a class="row" href="{{ newer.url }}"><span class="kicker">Newer</span><span class="l">{{ newer.data.title }}</span></a></li>{% endif %}
+      {% if older %}<li><a class="row" href="{{ older.url }}"><span class="kicker">Older</span><span class="l">{{ older.data.title }}</span></a></li>{% endif %}
+    </ul>
+  </nav>
 </article>

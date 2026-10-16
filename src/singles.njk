@@ -1,0 +1,15 @@
+---
+layout: layouts/page.njk
+title: Music
+kicker: Listen — albums and singles
+heading: Music
+permalink: /singles/
+---
+<ul class="shell players grid">
+  {%- for m in music %}
+  <li class="players__item">
+    {% player m.provider, m.id, m.url, m.title, m.cover %}
+    <h2 class="l">{{ m.title }}</h2>
+  </li>
+  {%- endfor %}
+</ul>

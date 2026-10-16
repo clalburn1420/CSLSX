@@ -1,4 +1,5 @@
 import { HtmlBasePlugin } from "@11ty/eleventy";
+import { renderPlayer } from "./lib/player.mjs";
 
 const toDate = (d) => (d instanceof Date ? d : new Date(String(d).length === 4 ? `${d}-01-01` : d));
 
@@ -13,11 +14,10 @@ export default function (eleventyConfig) {
     const x = toDate(d);
     return [x.getUTCDate(), x.getUTCMonth() + 1].map((n) => String(n).padStart(2, "0")).join(".") + "." + x.getUTCFullYear();
   });
+  eleventyConfig.addFilter("pad2", (n) => String(n).padStart(2, "0"));
   eleventyConfig.addFilter("isoDate", (d) => toDate(d).toISOString().slice(0, 10));
 
-  // Click-to-load embed; the link works on its own when JS or the embed is unavailable.
-  eleventyConfig.addShortcode("player", (provider, id, url, title = "") =>
-    `<figure class="player" data-provider="${provider}" data-id="${id}"><a href="${url}">${title || "Play on " + provider}</a></figure>`);
+  eleventyConfig.addShortcode("player", renderPlayer);
 }
 
 export const config = {

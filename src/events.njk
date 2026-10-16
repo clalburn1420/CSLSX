@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+title: Events
+permalink: /events/
+---
+<section class="shell events">
+  <p class="kicker">Events</p>
+  <h1 class="sr-only">Events</h1>
+  {%- if events.length %}
+  <ol class="rows">
+    {%- for e in events %}
+    <li class="row"><time class="kicker" datetime="{{ e.date }}">{{ e.date | dateFmt }}</time><span class="l">{{ e.venue }} — {{ e.city }}</span></li>
+    {%- endfor %}
+  </ol>
+  {%- else %}
+  <p class="events__none mega">No upcoming shows</p>
+  <p class="events__past">Past stages include support slots for Grimes, John Maus and St. Lucia. For bookings, write to <a href="mailto:{{ site.emails.primary }}">{{ site.emails.primary }}</a>.</p>
+  {%- endif %}
+</section>

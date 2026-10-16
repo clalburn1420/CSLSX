@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+title: Bio
+permalink: /artists/
+---
+<section class="shell bio grid">
+  <p class="kicker bio__kicker">Bio — Andrew Alburn, Chad Alburn, Jesse Davis</p>
+  <h1 class="sr-only">Bio</h1>
+  <blockquote class="bio__quote">
+    <p class="xl">“{{ bio.quote.text }}”</p>
+    <footer class="kicker">— {{ bio.quote.source }}</footer>
+  </blockquote>
+  <figure class="bio__image haze"><img src="{{ bio.image }}" alt="Andrew and Chad Alburn" width="1200" height="1200" loading="lazy"></figure>
+  <div class="bio__text prose">
+    {%- for p in bio.paragraphs %}<p>{{ p }}</p>{% endfor %}
+  </div>
+</section>

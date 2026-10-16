@@ -85,6 +85,10 @@ export function cleanBody(html, imageMap) {
     const embed = parseEmbed(src);
     if (embed) $(el).replaceWith(`\n\n${shortcode(embed)}\n\n`);
   });
+  // An embed block that was never filled in renders only its editor placeholder text.
+  $('[data-sqsp-block="embed"], .sqs-embed-container').each((_, el) => {
+    if (!$(el).find("iframe").length && !$(el).text().includes("{% player")) $(el).remove();
+  });
   $("iframe").each((_, el) => {
     const embed = parseEmbed($(el).attr("src"));
     $(el).replaceWith(embed ? `\n\n${shortcode(embed)}\n\n` : "");

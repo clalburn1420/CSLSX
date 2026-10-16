@@ -1,0 +1,8 @@
+---
+layout: layouts/base.njk
+---
+<header class="shell page-head">
+  <p class="kicker">{{ kicker }}</p>
+  <h1 class="xl">{{ heading or title }}</h1>
+</header>
+{{ content | safe }}

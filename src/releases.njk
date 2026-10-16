@@ -1,0 +1,24 @@
+---
+layout: layouts/page.njk
+title: Releases
+kicker: Discography — 2012–2021
+heading: Releases
+permalink: /releases/
+---
+<ol class="shell releases">
+  {%- for r in releases %}
+  <li class="release grid">
+    <p class="release__num meta" aria-hidden="true">{{ loop.index | pad2 }} / {{ releases.length | pad2 }}</p>
+    <div class="release__cover haze"><img src="{{ r.cover }}" alt="{{ r.title }} cover art" width="640" height="640" loading="lazy"></div>
+    <div class="release__text">
+      <p class="kicker">{{ r.type }} — {{ r.date | dateFmt }}</p>
+      <h2 class="l">{{ r.title }}</h2>
+      <p class="kicker release__by">{{ r.artists }}</p>
+      {% if r.note %}<p>{{ r.note }}</p>{% endif %}
+      <div class="slugs kicker">
+        {%- for l in r.links %}<a class="slug" href="{{ l.url }}"{% if ".mp3" in l.url %} download{% endif %}>{{ l.name }}</a>{% endfor -%}
+      </div>
+    </div>
+  </li>
+  {%- endfor %}
+</ol>

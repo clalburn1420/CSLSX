@@ -69,6 +69,13 @@ test("cleanBody strips Squarespace cruft and converts iframes", () => {
   assert.match(out, /\{% player "youtube", "FXVNtKYXSOU"/);
 });
 
+test("cleanBody drops empty Squarespace embed blocks and their placeholder text", () => {
+  const html = '<p>Lyric line</p><div data-sqsp-block="embed"><div class="sqs-block-content"><div class="sqs-embed-container" data-localized="{}">Embed Block<p>Add an embed URL or code.</p></div></div></div>';
+  const out = cleanBody(html, {});
+  assert.match(out, /Lyric line/);
+  assert.doesNotMatch(out, /Embed Block|Add an embed/);
+});
+
 test("cleanBody rewrites captured image URLs", () => {
   const out = cleanBody(`<p><img data-src="${CDN}/x/a.jpg?format=500w" alt="A"></p>`, { [`${CDN}/x/a.jpg`]: "/assets/img/a-12345678.webp" });
   assert.match(out, /<img [^>]*src="\/assets\/img\/a-12345678\.webp"/);

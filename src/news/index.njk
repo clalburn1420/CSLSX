@@ -1,0 +1,17 @@
+---
+layout: layouts/page.njk
+title: News
+kicker: Dispatches — 2017–2021
+heading: News
+permalink: /news/
+eleventyExcludeFromCollections: true
+tags: []
+---
+<ol class="shell rows news-list">
+  {%- for post in collections.news | reverse %}
+  <li><a class="row" href="{{ post.url }}">
+    <time class="kicker" datetime="{{ post.date | isoDate }}">{{ post.date | dateFmt }}</time>
+    <span class="l">{{ post.data.title }}</span>
+  </a></li>
+  {%- endfor %}
+</ol>

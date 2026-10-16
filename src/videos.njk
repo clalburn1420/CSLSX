@@ -1,0 +1,16 @@
+---
+layout: layouts/page.njk
+title: Videos
+kicker: Moving pictures — 2010–2021
+heading: Videos
+permalink: /videos/
+---
+<ul class="shell players players--video grid">
+  {%- for v in videos %}
+  <li class="players__item">
+    {% player v.provider, v.id, v.url, v.title, v.poster %}
+    <h2 class="l">{{ v.title }}</h2>
+    {% if v.credit %}<p class="kicker">{{ v.credit }}</p>{% endif %}
+  </li>
+  {%- endfor %}
+</ul>
