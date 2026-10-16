@@ -1,0 +1,11 @@
+.shell { padding-inline: var(--gut); }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+  column-gap: clamp(12px, 2vw, 32px);
+}
+.bleed { margin-inline: calc(var(--gut) * -1); }
+@media (max-width: 760px) {
+  :root { --cols: 4; }
+  .grid > * { grid-column: 1 / -1 !important; }
+}

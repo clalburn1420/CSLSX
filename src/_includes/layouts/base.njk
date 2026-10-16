@@ -4,8 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if title %}{{ title }} — {% endif %}CSLSX</title>
+  <meta name="description" content="{{ description or site.description }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <meta property="og:title" content="{% if title %}{{ title }} — {% endif %}CSLSX">
+  <meta property="og:description" content="{{ description or site.description }}">
+  <meta property="og:image" content="{{ site.url }}{{ ogImage or image or site.hero }}">
+  <meta name="theme-color" content="#ebe5da">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/grid.css">
+  <link rel="stylesheet" href="/assets/css/poster.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
 </head>
 <body>
-{{ content | safe }}
+  <a class="skip micro" href="#main">Skip to content</a>
+  {% include "partials/nav.njk" %}
+  <main id="main">
+    {{ content | safe }}
+  </main>
+  {% include "partials/footer.njk" %}
+  <script src="/assets/js/player.js" defer></script>
 </body>
 </html>

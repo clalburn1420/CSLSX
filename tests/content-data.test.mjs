@@ -65,10 +65,16 @@ test("news: seven posts at their original Squarespace paths", () => {
   }
 });
 
-test("src contains no Squarespace URLs or scripts", () => {
+test("src contains no Squarespace URLs", () => {
   const offenders = walk("src")
-    .filter((p) => /\.(md|njk|json|html|mjs)$/.test(p))
-    .filter((p) => /squarespace-cdn\.com|static1\.squarespace|<script/i.test(readFileSync(p, "utf8")));
+    .filter((p) => /\.(md|njk|json|html|mjs|css|js)$/.test(p))
+    .filter((p) => /squarespace-cdn\.com|static1\.squarespace/i.test(readFileSync(p, "utf8")));
+  assert.deepEqual(offenders, []);
+});
+
+test("captured content carries no scripts", () => {
+  const offenders = [...walk("src/news"), ...walk("src/_data")]
+    .filter((p) => /<script/i.test(readFileSync(p, "utf8")));
   assert.deepEqual(offenders, []);
 });
 

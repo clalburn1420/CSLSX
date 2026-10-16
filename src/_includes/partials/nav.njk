@@ -1,0 +1,10 @@
+<header class="shell">
+  <div class="masthead">
+    <a class="home" href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>CSLSX</a>
+    <nav class="nav kicker" aria-label="Main">
+      {%- for item in site.nav %}
+      <a href="{{ item.url }}" {% if page.url.startsWith(item.url) %}aria-current="page"{% endif %}>{{ item.label }}</a>
+      {%- endfor %}
+    </nav>
+  </div>
+</header>

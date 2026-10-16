@@ -1,0 +1,71 @@
+/* Masthead */
+.masthead {
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between;
+  gap: .75rem 2rem; padding-block: 1.1rem; border-bottom: 1px solid var(--ink);
+}
+.masthead .home { font-weight: 900; font-variation-settings: "wdth" 125, "wght" 900; letter-spacing: -0.03em; font-size: 1.25rem; text-decoration: none; }
+.nav { display: flex; flex-wrap: wrap; gap: .35rem 1.4rem; }
+.nav a { text-decoration: none; }
+.nav a:hover, .nav a[aria-current="page"] { text-decoration: underline; text-decoration-thickness: 2px; }
+
+/* Slugs: knocked-out links */
+.slugs { display: flex; flex-wrap: wrap; gap: .5rem; }
+.slug {
+  display: inline-block; background: var(--ink); color: var(--paper);
+  padding: .55rem .85rem; text-decoration: none;
+}
+.slug:hover { background: var(--spot); color: var(--ink); }
+.slug--spot { background: var(--spot); color: var(--ink); }
+.slug--spot:hover { background: var(--ink); color: var(--paper); }
+
+/* Rows that reverse to ink on hover — the page's one recurring interaction. */
+.rows { border-top: 1px solid var(--ink); }
+.row {
+  position: relative; isolation: isolate; display: grid;
+  grid-template-columns: minmax(7rem, 2fr) 10fr; gap: 1rem; align-items: baseline;
+  padding-block: 1.1rem; border-bottom: 1px solid var(--ink); text-decoration: none;
+}
+.row::before {
+  content: ""; position: absolute; inset: 0 calc(var(--gut) * -1); z-index: -1;
+  background: var(--ink); transform: scaleX(0); transform-origin: left;
+  transition: transform .28s cubic-bezier(.2,.7,.3,1);
+}
+.row:hover::before, .row:focus-visible::before { transform: scaleX(1); }
+.row:hover, .row:focus-visible { color: var(--paper); outline: none; }
+@media (prefers-reduced-motion: reduce) { .row::before { transition: none; } }
+@media (max-width: 760px) { .row { grid-template-columns: 1fr; gap: .35rem; } }
+
+/* Footer */
+.colophon { border-top: 1px solid var(--ink); padding-block: 3rem 2rem; margin-top: clamp(4rem, 10vw, 9rem); }
+.colophon .mail { font-size: var(--t-l); }
+.colophon ul { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; margin-top: 2rem; }
+.colophon .fine { margin-top: 3rem; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+
+/* Home — hero: the artwork in haze, the wordmark cropped by the bottom edge */
+.hero { position: relative; overflow: hidden; }
+.hero__img { aspect-ratio: 2.4 / 1; min-height: 46vh; }
+.hero__mark {
+  position: absolute; left: -0.035em; right: 0; bottom: -0.16em;
+  font-size: 23.7vw; color: var(--ink); mix-blend-mode: multiply; pointer-events: none; /* CSLSX = 4.225em wide */
+}
+.hero__rail { position: absolute; top: 1.25rem; right: calc(var(--gut) * .5); color: var(--ink); max-height: 50%; }
+
+.feature { padding-block: clamp(3rem, 8vw, 7rem); row-gap: 2rem; align-items: end; }
+.feature__cover { grid-column: 1 / 7; }
+.feature__cover .haze { aspect-ratio: 1; }
+.feature__text { grid-column: 8 / 13; display: grid; gap: 1.25rem; }
+.feature__note { max-width: 34ch; }
+.feature__text .xl { font-size: clamp(2.4rem, 6.4vw, 6.5rem); }
+
+.section-head { display: flex; justify-content: space-between; align-items: end; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.news-teaser { padding-block: clamp(2rem, 6vw, 5rem); }
+
+.download { background: var(--spot); margin-top: clamp(3rem, 8vw, 7rem); overflow: hidden; }
+.download__inner { padding-block: clamp(3rem, 7vw, 6rem); display: grid; gap: 1.5rem; justify-items: start; }
+.download__title { font-size: clamp(3.4rem, 17vw, 17rem); white-space: normal; line-height: .8; }
+.download__quote { font-size: var(--t-m); font-weight: 600; }
+.download .slug:hover { background: var(--paper); color: var(--ink); }
+.colophon .mail { font-size: min(var(--t-l), 5.4vw); }
+@media (max-width: 760px) { .hero__rail { display: none; } }
+/* The source photo carries museum inventory marks on its left edge; crop them out. */
+.hero__img img { transform: scale(1.07); transform-origin: 100% 50%; }

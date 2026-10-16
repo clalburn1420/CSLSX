@@ -1,0 +1,15 @@
+<footer class="shell">
+  <div class="colophon">
+    <p class="kicker">Write to us</p>
+    <a class="mail l" href="mailto:{{ site.emails.primary }}">{{ site.emails.primary }}</a>
+    <ul class="kicker" aria-label="CSLSX elsewhere">
+      {%- for s in site.socials %}
+      <li><a href="{{ s.url }}">{{ s.name }}</a></li>
+      {%- endfor %}
+    </ul>
+    <div class="fine meta">
+      <span>CSLSX — Andrew Alburn, Chad Alburn, Jesse Davis</span>
+      <span>Philadelphia / Brooklyn — 2010–2021 — Archive</span>
+    </div>
+  </div>
+</footer>

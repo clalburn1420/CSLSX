@@ -1,4 +1,50 @@
 ---
 layout: layouts/base.njk
 ---
-<h1>CSLSX</h1>
+{%- set latest = releases[0] -%}
+<section class="hero bleed-x">
+  <h1 class="sr-only">CSLSX</h1>
+  <figure class="hero__img haze">
+    <img src="{{ site.hero }}" alt="Falling figures, from the CSLSX artwork" width="2400" height="800" fetchpriority="high">
+  </figure>
+  <p class="hero__mark mega" aria-hidden="true">CSLSX</p>
+  <p class="hero__rail meta rail">Philadelphia / Brooklyn — 2010–2021</p>
+</section>
+
+<section class="shell feature grid" aria-labelledby="latest-title">
+  <a class="feature__cover" href="/releases/" tabindex="-1" aria-hidden="true">
+    <figure class="haze"><img src="{{ latest.cover }}" alt="" width="640" height="640" loading="lazy"></figure>
+  </a>
+  <div class="feature__text">
+    <p class="kicker">Latest release — {{ latest.type }} — {{ latest.date | dateFmt }}</p>
+    <h2 id="latest-title" class="xl">{{ latest.title }}</h2>
+    {% if latest.note %}<p class="feature__note">{{ latest.note }}</p>{% endif %}
+    <div class="slugs kicker">
+      {%- for l in latest.links %}<a class="slug" href="{{ l.url }}">{{ l.name }}</a>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="shell news-teaser" aria-labelledby="news-title">
+  <div class="section-head">
+    <h2 id="news-title" class="xl">News</h2>
+    <a class="kicker" href="/news/">All {{ collections.news.length }} posts →</a>
+  </div>
+  <ol class="rows">
+    {%- for post in collections.news | reverse %}{% if loop.index <= 4 %}
+    <li><a class="row" href="{{ post.url }}">
+      <time class="kicker" datetime="{{ post.date | isoDate }}">{{ post.date | dateFmt }}</time>
+      <span class="l">{{ post.data.title }}</span>
+    </a></li>
+    {%- endif %}{% endfor %}
+  </ol>
+</section>
+
+<section class="download" aria-labelledby="dl-title">
+  <div class="shell download__inner">
+    <p class="kicker">Free music — 2012 — MP3</p>
+    <h2 id="dl-title" class="mega download__title">Keep On<br>Shining</h2>
+    <p class="download__quote">“Breezy electro gem.” — Pitchfork</p>
+    <a class="slug kicker" href="{{ site.download.url }}" download>Download the MP3 ↓</a>
+  </div>
+</section>
