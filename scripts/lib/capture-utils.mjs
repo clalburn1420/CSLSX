@@ -1,7 +1,8 @@
 import { createHash } from "node:crypto";
 import * as cheerio from "cheerio";
 
-const CDN_RE = /https?:\/\/images\.squarespace-cdn\.com\/[^\s"'<>),]+/g;
+// Stops at backslashes (JSON escapes) and "&" (share-link params glued onto the URL).
+const CDN_RE = /https?:\/\/images\.squarespace-cdn\.com\/[^\s"'<>),\\&]+/g;
 
 const decodeEntities = (s) =>
   s.replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, "<").replace(/&gt;/g, ">");

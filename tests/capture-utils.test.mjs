@@ -19,6 +19,11 @@ test("extractImageUrls reads srcset and decodes entities", () => {
   assert.deepEqual(extractImageUrls(html).sort(), [`${CDN}/x/b.png`, `${CDN}/x/c.png`, `${CDN}/x/d.jpg`]);
 });
 
+test("extractImageUrls cuts off JSON escapes and share-link params", () => {
+  const json = `"${CDN}/x/New+Oblivion1.jpg\\\\" "${CDN}/x/New+Oblivion1.jpg&url=http%3A%2F%2Fwww.cslsx.com%2Fnews"`;
+  assert.deepEqual(extractImageUrls(json), [`${CDN}/x/New+Oblivion1.jpg`]);
+});
+
 test("localImageName sanitizes plus signs and non-ASCII", () => {
   const name = localImageName(`${CDN}/55e/1443994697169-S4/Film+ou+Visa+de+censure+num%C3%A9ro+X10.png`);
   assert.match(name, /^film-ou-visa-de-censure-num-ro-x10-[0-9a-f]{8}\.webp$/);

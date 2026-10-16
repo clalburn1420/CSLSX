@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Beyond The Haze",
+    "artists": "CSLSX",
+    "type": "LP",
+    "date": "2021-07-30",
+    "cover": "/assets/img/cover-58oZQt3djCiYGIIRwj1kgw.webp",
+    "note": "The debut solo LP, produced with Peter Katis and Nicolas Vernhes.",
+    "links": [
+      { "name": "Spotify", "url": "https://open.spotify.com/album/58oZQt3djCiYGIIRwj1kgw" },
+      { "name": "Apple Music", "url": "https://itunes.apple.com/us/artist/cslsx/1046532361" },
+      { "name": "Liner notes", "url": "/news/2021/7/30/beyond-the-haze-lp-released-today/" }
+    ]
+  },
+  {
+    "title": "Ritualize",
+    "artists": "CSLSX & Lushlife",
+    "type": "LP",
+    "date": "2016-02-19",
+    "cover": "/assets/img/cover-6zSPYImKXzl3s3V64GHExI.webp",
+    "note": "With Killer Mike, Ariel Pink, RJD2, Freeway and Marissa Nadler. Also pressed on vinyl.",
+    "links": [
+      { "name": "Spotify", "url": "https://open.spotify.com/album/6zSPYImKXzl3s3V64GHExI" },
+      { "name": "Apple Music", "url": "https://itunes.apple.com/us/artist/cslsx/1046532361" }
+    ]
+  },
+  {
+    "title": "Everything Void: The Singles",
+    "artists": "CSLSX",
+    "type": "Compilation",
+    "date": "2015-10-04",
+    "cover": "/assets/img/cover-0i7ajmoD17irOPfC8QK0FX.webp",
+    "links": [
+      { "name": "Spotify", "url": "https://open.spotify.com/album/0i7ajmoD17irOPfC8QK0FX" },
+      { "name": "Apple Music", "url": "https://itunes.apple.com/us/artist/cslsx/1046532361" }
+    ]
+  },
+  {
+    "title": "Keep On Shining",
+    "artists": "CSLSX",
+    "type": "Single",
+    "date": "2012",
+    "cover": "/assets/img/tumblr-m5xgbvb1v71qgg5o8o1-500-8206a0dc.webp",
+    "note": "Pitchfork: “breezy electro gem.” Free download.",
+    "links": [
+      { "name": "Download MP3", "url": "/assets/dl/CSLSX---Keep-On-Shining.mp3" },
+      { "name": "Video", "url": "https://www.youtube.com/watch?v=4RsFq87TMnw" }
+    ]
+  }
+]

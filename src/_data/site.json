@@ -1,0 +1,38 @@
+{
+  "title": "CSLSX",
+  "url": "https://cslsx.com",
+  "description": "CSLSX — hazy electronic music from brothers Andrew and Chad Alburn, with Jesse Davis. Philadelphia / Brooklyn.",
+  "nav": [
+    { "label": "Releases", "url": "/releases/" },
+    { "label": "Music", "url": "/singles/" },
+    { "label": "Bio", "url": "/artists/" },
+    { "label": "Events", "url": "/events/" },
+    { "label": "Videos", "url": "/videos/" },
+    { "label": "News", "url": "/news/" },
+    { "label": "Contact", "url": "/label/" }
+  ],
+  "socials": [
+    { "name": "Spotify", "url": "https://open.spotify.com/artist/78NphNuUJSgP9uEVm2CKZP" },
+    { "name": "Apple Music", "url": "https://itunes.apple.com/us/artist/cslsx/1046532361" },
+    { "name": "SoundCloud", "url": "https://soundcloud.com/cslsx" },
+    { "name": "YouTube", "url": "https://www.youtube.com/user/CSLSX" },
+    { "name": "Vimeo", "url": "https://vimeo.com/cslsx" },
+    { "name": "Instagram", "url": "https://www.instagram.com/cslsx/" },
+    { "name": "Facebook", "url": "https://www.facebook.com/cslsx" },
+    { "name": "Twitter", "url": "https://twitter.com/cslsx" }
+  ],
+  "emails": {
+    "primary": "cslsx.is.real@gmail.com",
+    "secondary": "andrew.alburn@gmail.com"
+  },
+  "download": {
+    "title": "Keep On Shining",
+    "url": "/assets/dl/CSLSX---Keep-On-Shining.mp3"
+  },
+  "hero": "/assets/img/belvedere-apollo-pio-clemehgntino-inv101-db3c5f34.webp",
+  "gallery": [
+    "/assets/img/image-asset-20125837.webp",
+    "/assets/img/image-asset-64c77826.webp",
+    "/assets/img/image-asset-dd7b7686.webp"
+  ]
+}
