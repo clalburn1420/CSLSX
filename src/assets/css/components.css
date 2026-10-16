@@ -116,3 +116,7 @@
 @media (max-width: 760px) {
   .players__item { grid-column: 1 / -1; }
 }
+
+.gallery { padding-block: clamp(1rem, 3vw, 2rem); }
+.gallery__strip li { grid-column: span 4; aspect-ratio: 1; }
+@media (max-width: 760px) { .gallery__strip { row-gap: 12px; } }

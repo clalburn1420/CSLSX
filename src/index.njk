@@ -40,6 +40,18 @@ layout: layouts/base.njk
   </ol>
 </section>
 
+<section class="shell gallery" aria-labelledby="gallery-title">
+  <div class="section-head">
+    <h2 id="gallery-title" class="kicker">Images</h2>
+    <a class="kicker" href="https://www.instagram.com/cslsx/">More on Instagram ↗</a>
+  </div>
+  <ul class="gallery__strip grid">
+    {%- for img in site.gallery %}
+    <li class="haze"><img src="{{ img }}" alt="" loading="lazy" width="800" height="800"></li>
+    {%- endfor %}
+  </ul>
+</section>
+
 <section class="download" aria-labelledby="dl-title">
   <div class="shell download__inner">
     <p class="kicker">Free music — 2012 — MP3</p>

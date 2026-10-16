@@ -1,0 +1,7 @@
+[
+  { "from": "releases/x310ryvv25xgpl6izwro0dy3swrxg9", "to": "/releases/" },
+  { "from": "cart", "to": "/releases/" },
+  { "from": "mixes", "to": "/" },
+  { "from": "main", "to": "/" },
+  { "from": "home-wav", "to": "/" }
+]

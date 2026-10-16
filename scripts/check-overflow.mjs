@@ -13,7 +13,8 @@ async function htmlPages(dir, root = dir) {
   for (const f of await readdir(dir)) {
     const p = join(dir, f);
     if ((await stat(p)).isDirectory()) out.push(...(await htmlPages(p, root)));
-    else if (f.endsWith(".html")) out.push("/" + relative(root, p).replace(/\\/g, "/").replace(/index\.html$/, ""));
+    // Redirect stubs navigate away at once and have no layout of their own.
+    else if (f.endsWith(".html") && !(await readFile(p, "utf8")).includes('http-equiv="refresh"')) out.push("/" + relative(root, p).replace(/\\/g, "/").replace(/index\.html$/, ""));
   }
   return out;
 }

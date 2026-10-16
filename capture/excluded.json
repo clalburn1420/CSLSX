@@ -1,0 +1,17 @@
+{
+  "texts": [
+    { "text": "CSLSX & LUSHLIFE - Ritualize Vinyl", "reason": "Store product title; the store was dropped. Ritualize is listed on /releases/." },
+    { "text": "Holy Hell (Lyric Video)", "reason": "Split into title + credit on /videos/ (\"Holy Hell\" / \"Lyric video\")." },
+    { "text": "This Ecstatic Cult (ft. Killer Mike & Lushlife)", "reason": "Split into title + credit on /videos/." },
+    { "text": "Integration Loop (Live on The Special)", "reason": "Split into title + credit on /videos/." },
+    { "text": "Body Double (Live on The Special)", "reason": "Split into title + credit on /videos/." },
+    { "text": "The Waking World (ft. I Break Horses & Lushlife)", "reason": "Split into title + credit on /videos/." },
+    { "text": "Violent Sea (ft. I Break Horses)", "reason": "Split into title + credit on /videos/." },
+    { "text": "Aeromancer (ft. Mountain Man)", "reason": "Split into title + credit on /videos/." }
+  ],
+  "images": [
+    { "path": "/assets/img/favicon-a4a2df36.webp", "reason": "Old Squarespace favicon; replaced by /assets/favicon.svg." },
+    { "path": "/assets/img/wav-album-mockup-wide-da3797f6.webp", "reason": "Store product photo for the Ritualize vinyl; the store was dropped." },
+    { "path": "/assets/img/image-asset-9a110455.webp", "reason": "Store product photo for the Ritualize vinyl; the store was dropped." }
+  ]
+}
