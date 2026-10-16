@@ -2,7 +2,7 @@
    Spot pink fails as text on paper (2.4:1) — use it only as a field with ink on top. */
 @font-face {
   font-family: "Archivo";
-  src: url("/assets/fonts/archivo.woff2") format("woff2-variations");
+  src: url("../fonts/archivo.woff2") format("woff2-variations");
   font-weight: 100 900;
   font-stretch: 62% 125%;
   font-display: swap;
