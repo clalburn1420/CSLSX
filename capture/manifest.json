@@ -1,0 +1,200 @@
+{
+  "capturedAt": "2026-10-16T01:47:26.804Z",
+  "images": {
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1610299388799-JU3HPEE2PFDUGRNTFA1O/favicon.ico": "/assets/img/favicon-a4a2df36.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1627675164437-NFIIEWBALKP7JXKIT0M8/New+Oblivion1.jpg": "/assets/img/new-oblivion1-a3c732d8.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1627673339417-RB6WQDBOLLDXIRM9EK4G/Album+Cover+Final.jpg": "/assets/img/album-cover-final-9948e101.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1509920363869-ZU591O32O2PFMCQCYCL2/belvedere_apollo_pio-clemehgntino_inv1015_fghhgfgn3h2.jpg": "/assets/img/belvedere-apollo-pio-clemehgntino-inv101-db3c5f34.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1616848531106-X3XS4HRQZWHJGAWB5FKH/Holy%2BHell.jpg": "/assets/img/holy-hell-a3149d6a.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1610304270503-DOO4TTFL1MOVMMMQJZVC/7a9bc3a6a2a07623213e11d91fa127fa.jpg": "/assets/img/7a9bc3a6a2a07623213e11d91fa127fa-d0f6c1eb.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1612566802563-B493370BED7TXMA1UIMT/558c06641df50bbc397325df61c9562b.jpg": "/assets/img/558c06641df50bbc397325df61c9562b-b68d9c53.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1614091095967-GIDJRW0IRW25RD7D1C9X/1d2699f61500c78ca77b77a9b5891956.jpg": "/assets/img/1d2699f61500c78ca77b77a9b5891956-adb4b76a.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1509920481937-VXJATCZMJG1ZQJPIDF55/tumblr_m5xgbvB1v71qgg5o8o1_500.jpg": "/assets/img/tumblr-m5xgbvb1v71qgg5o8o1-500-8206a0dc.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1627675164437-NFIIEWBALKP7JXKIT0M8/New+Oblivion1.jpg\\": "/assets/img/new-oblivion1-jpg-caeeb42f.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1610299036163-8MYNJ4AMYSG68HTKKUT5/image-asset.jpeg": "/assets/img/image-asset-20125837.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1610299036163-7EBC8XG31EBDXJBDW2AM/image-asset.jpeg": "/assets/img/image-asset-64c77826.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1614091095967-GIDJRW0IRW25RD7D1C9X/1d2699f61500c78ca77b77a9b5891956.jpg\\": "/assets/img/1d2699f61500c78ca77b77a9b5891956-jpg-839837e2.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1616848531106-X3XS4HRQZWHJGAWB5FKH/Holy%2BHell.jpg\\": "/assets/img/holy-hell-jpg-8b21fab8.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1612566802563-B493370BED7TXMA1UIMT/558c06641df50bbc397325df61c9562b.jpg\\": "/assets/img/558c06641df50bbc397325df61c9562b-jpg-f08bbcf2.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1610299036163-NDYX2RP90UJ4OP3TMTXG/image-asset.jpeg": "/assets/img/image-asset-dd7b7686.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1610304270503-DOO4TTFL1MOVMMMQJZVC/7a9bc3a6a2a07623213e11d91fa127fa.jpg\\": "/assets/img/7a9bc3a6a2a07623213e11d91fa127fa-jpg-fadb5794.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1509920481937-VXJATCZMJG1ZQJPIDF55/tumblr_m5xgbvB1v71qgg5o8o1_500.jpg\\": "/assets/img/tumblr-m5xgbvb1v71qgg5o8o1-500-jpg-b9ae709a.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1610299036163-8MYNJ4AMYSG68HTKKUT5/image-asset.jpeg\\": "/assets/img/image-asset-jpeg-c511b4a1.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1610299036163-7EBC8XG31EBDXJBDW2AM/image-asset.jpeg\\": "/assets/img/image-asset-jpeg-c3b8ccae.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1610299036163-NDYX2RP90UJ4OP3TMTXG/image-asset.jpeg\\": "/assets/img/image-asset-jpeg-ec4bff31.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1627673339417-RB6WQDBOLLDXIRM9EK4G/Album+Cover+Final.jpg\\": "/assets/img/album-cover-final-jpg-63bad249.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1510013584085-TJ9690BQYA24PWWVWWSV/image-asset.jpeg": "/assets/img/image-asset-9a110455.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1510013584085-TJ9690BQYA24PWWVWWSV/image-asset.jpeg&url=http%3A%2F%2Fwww.cslsx.com%2Freleases%2Fx310ryvv25xgpl6izwro0dy3swrxg9": "/assets/img/image-asset-jpeg-url-http-www-cslsx-com-fd6ba5fd.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1510013583391-S1C1YK7FZ45WVGAUA2S5/wav-album-mockup-wide.jpg": "/assets/img/wav-album-mockup-wide-da3797f6.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1616846055723-K27RZKHJSP43PW35N80D/Holy+Hell2.png": "/assets/img/holy-hell2-0ff9df1d.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1510011158548-XEKVBZHJ5L1R8GR5N7S4/red-light-districtall.jpg": "/assets/img/red-light-districtall-7b4ac2ba.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1510011487243-R7GY2DEZBDMSNUVXD8DB/UVA_vanishingpoint2.jpg": "/assets/img/uva-vanishingpoint2-af8cde06.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1510184776816-9USX7IIFCSYG366FGH6B/image-asset.jpeg\\": "/assets/img/image-asset-jpeg-759037fb.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1443987497231-78S5UFYCD47P66NT7N6T/K_phosphate.jpg": "/assets/img/k-phosphate-fc8f8240.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1510184776816-9USX7IIFCSYG366FGH6B/image-asset.jpeg": "/assets/img/image-asset-ed7287c2.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1443994289339-XI1UZ54UJX234YW99D9C/alexander-hackenschmied-1907-2004-maya-deren.jpg": "/assets/img/alexander-hackenschmied-1907-2004-maya-d-5db9f697.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1443987757134-UIZL8PCM8U2JZXA285BG/vlcsnap-2011-10-25-15h47m17s116.png": "/assets/img/vlcsnap-2011-10-25-15h47m17s116-cd7095a2.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1443994697169-S447NY0QGOSFJQNJUOKH/Film+ou+Visa+de+censure+num%C3%A9ro+X10.png": "/assets/img/film-ou-visa-de-censure-num-ro-x10-4d4e41e0.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1616846055723-K27RZKHJSP43PW35N80D/Holy+Hell2.png\\": "/assets/img/holy-hell2-png-3c755b30.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1510011487243-R7GY2DEZBDMSNUVXD8DB/UVA_vanishingpoint2.jpg\\": "/assets/img/uva-vanishingpoint2-jpg-e12e234a.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1443987497231-78S5UFYCD47P66NT7N6T/K_phosphate.jpg\\": "/assets/img/k-phosphate-jpg-03183fcd.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1443994818301-9GB80N9GBA6CD7GFR2BS/Image1.jpg": "/assets/img/image1-cb91f676.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1510011158548-XEKVBZHJ5L1R8GR5N7S4/red-light-districtall.jpg\\": "/assets/img/red-light-districtall-jpg-4f24a74e.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1443987757134-UIZL8PCM8U2JZXA285BG/vlcsnap-2011-10-25-15h47m17s116.png\\": "/assets/img/vlcsnap-2011-10-25-15h47m17s116-png-6fc0fdd5.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1443994697169-S447NY0QGOSFJQNJUOKH/Film+ou+Visa+de+censure+num%C3%A9ro+X10.png\\": "/assets/img/film-ou-visa-de-censure-num-ro-x10-png-9f80a033.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1443994289339-XI1UZ54UJX234YW99D9C/alexander-hackenschmied-1907-2004-maya-deren.jpg\\": "/assets/img/alexander-hackenschmied-1907-2004-maya-d-3eb66a3a.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1443994818301-9GB80N9GBA6CD7GFR2BS/Image1.jpg\\": "/assets/img/image1-jpg-912d32f4.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1627675164437-NFIIEWBALKP7JXKIT0M8/New+Oblivion1.jpg&url=http%3A%2F%2Fwww.cslsx.com%2Fnews%2F2021%2F7%2F30%2Fnew-oblivion-music-video": "/assets/img/new-oblivion1-jpg-url-http-www-cslsx-com-ce5da897.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1614091095967-GIDJRW0IRW25RD7D1C9X/1d2699f61500c78ca77b77a9b5891956.jpg&url=http%3A%2F%2Fwww.cslsx.com%2Fnews%2F2021%2F2%2F23%2Feverything-is-alright": "/assets/img/1d2699f61500c78ca77b77a9b5891956-jpg-url-70c35cd0.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1612566802563-B493370BED7TXMA1UIMT/558c06641df50bbc397325df61c9562b.jpg&url=http%3A%2F%2Fwww.cslsx.com%2Fnews%2F2021%2F2%2F5%2Fi-can-feel-us-slip-into-oblivion": "/assets/img/558c06641df50bbc397325df61c9562b-jpg-url-6d345d7e.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1616848531106-X3XS4HRQZWHJGAWB5FKH/Holy%2BHell.jpg&url=http%3A%2F%2Fwww.cslsx.com%2Fnews%2F2021%2F3%2F27%2Fholy-hell-lyric-video-posted": "/assets/img/holy-hell-jpg-url-http-www-cslsx-com-new-18d7ae8f.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1610304270503-DOO4TTFL1MOVMMMQJZVC/7a9bc3a6a2a07623213e11d91fa127fa.jpg&url=http%3A%2F%2Fwww.cslsx.com%2Fnews%2F2021%2F1%2F10%2Fnotes-from-the-underground": "/assets/img/7a9bc3a6a2a07623213e11d91fa127fa-jpg-url-8e022927.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1509920481937-VXJATCZMJG1ZQJPIDF55/tumblr_m5xgbvB1v71qgg5o8o1_500.jpg&url=http%3A%2F%2Fwww.cslsx.com%2Fnews%2F2017%2F11%2F5%2Fnew-websitenew-music-coming": "/assets/img/tumblr-m5xgbvb1v71qgg5o8o1-500-jpg-url-h-b0f6d7af.webp",
+    "https://images.squarespace-cdn.com/content/v1/55e8e2d5e4b071dc30cae0c0/1627673339417-RB6WQDBOLLDXIRM9EK4G/Album+Cover+Final.jpg&url=http%3A%2F%2Fwww.cslsx.com%2Fnews%2F2021%2F7%2F30%2Fbeyond-the-haze-lp-released-today": "/assets/img/album-cover-final-jpg-url-http-www-cslsx-70326094.webp"
+  },
+  "download": {
+    "remote": "https://static1.squarespace.com/static/55e8e2d5e4b071dc30cae0c0/t/5b18a12cf950b7b5f26eae45/1528340918816/CSLSX+-+Keep+On+Shining.mp3",
+    "local": "/assets/dl/CSLSX---Keep-On-Shining.mp3"
+  },
+  "pages": {
+    "home": {
+      "title": "Home",
+      "texts": []
+    },
+    "releases": {
+      "title": "Releases",
+      "texts": [
+        "CSLSX & LUSHLIFE - Ritualize Vinyl"
+      ]
+    },
+    "releases__x310ryvv25xgpl6izwro0dy3swrxg9": {
+      "title": "CSLSX & LUSHLIFE - Ritualize Vinyl",
+      "texts": [
+        "CSLSX & LUSHLIFE - Ritualize Vinyl"
+      ]
+    },
+    "singles": {
+      "title": "Music",
+      "texts": []
+    },
+    "artists": {
+      "title": "Bio",
+      "texts": [
+        "“Sublime, warmly swirling...at once comforting and ominous” is how SPIN describes the “intoxicating production” of CSLSX. Since releasing their first single ‘Futuretapes’ in 2010, brothers Andrew and Chad Alburn, and frequent collaborator Jesse Davis, have earned widespread critical acclaim and pushed sonic boundaries with their unique blend of hazy electronic production.",
+        "The Philly/Brooklyn duo continued their trajectory with 2012’s ‘Keep On Shining,’ which Pitchfork lauded as a “breezy electro gem.” The strength of these releases would earn them opening spots for Grimes, John Maus and St. Lucia and garner continued attention cross influential media outlets such as Pitchfork, Spin, Fader and Stereogum.",
+        "In 2016, CSLSX adventured out in a whole new direction, releasing the ‘Ritualize’ LP with Philadelphia rapper Lushlife, and working with such artists as Killer Mike, Ariel Pink, RJD2, Freeway and Marissa Nadler. The futuristic blend of shoegaze, hip hop and italo disco earned much critical acclaim, with Stereogum declaring “I’ve never heard anything quite like it. I recommend it highly.”",
+        "Now, CSLSX has completed production on what will be their debut solo LP, working with Grammy award winning producers Peter Katis and Nicolas Vernhes. Look out for a release in spring 2021!"
+      ]
+    },
+    "events": {
+      "title": "Events",
+      "texts": []
+    },
+    "videos": {
+      "title": "Videos",
+      "texts": [
+        "Holy Hell (Lyric Video)",
+        "This Ecstatic Cult (ft. Killer Mike & Lushlife)",
+        "Integration Loop (Live on The Special)",
+        "Body Double (Live on The Special)",
+        "The Waking World (ft. I Break Horses & Lushlife)",
+        "Violent Sea (ft. I Break Horses)",
+        "Aeromancer (ft. Mountain Man)",
+        "We Ought To Be Together",
+        "Let's Get Metaphysical"
+      ]
+    },
+    "news": {
+      "title": "News",
+      "texts": []
+    },
+    "label": {
+      "title": "Contact",
+      "texts": [
+        "Let's Get Metaphysical",
+        "CSLSXcslsx.is.real@gmail.com",
+        "andrew.alburn@gmail.com"
+      ]
+    },
+    "news__2021__7__30__new-oblivion-music-video": {
+      "title": "New Oblivion Music Video",
+      "texts": [
+        "New Oblivion Music Video"
+      ]
+    },
+    "news__2021__7__30__beyond-the-haze-lp-released-today": {
+      "title": "'Beyond The Haze' LP Released Today!",
+      "texts": [
+        "'Beyond The Haze' LP Released Today!",
+        "Today is an exciting day that has been a long time coming, and I’m trying to find the words to describe it. Do you ever experience a certain smell or sound that suddenly transports you back in time? It’s not that it links you to a specific memory, more just a feeling from the past of how you used to be. You’ve been changing so gradually over time in mind and body that it’s jarring in a way, you realize you used to experience the world in a totally different way than you do now. In some ways, this album is like that for me. These songs span across a number of chapters in my life. In some I feel the brashness of youth, what it sounds like to be searching, and in others, balance.",
+        "If I’m lucky, one of these songs will stick to you in that way. It might not be for ten years that it comes to fruition, but you’ll hear one of these for the first time in a long time, and be flooded with the summer of 2021 — what it feels like to be you right now. And I hope more than anything, you feel like you’re living your best life, or making the right moves to get there. And you’ll hear one of these songs, and you won’t know why, but for a second you’ll be transported into that way of being — not because the song is transformational, but merely a mile marker in your journey."
+      ]
+    },
+    "news__2021__3__27__holy-hell-lyric-video-posted": {
+      "title": "Holy Hell Lyric Video Posted",
+      "texts": [
+        "Holy Hell Lyric Video Posted",
+        "New Music video for Holy Hell just posted! Check it out."
+      ]
+    },
+    "news__2021__2__23__everything-is-alright": {
+      "title": "Everything is alright...",
+      "texts": [
+        "Everything is alright...",
+        "If you’re carried away on chemical waves",
+        "When you’re feeling like ice",
+        "Your body so close that I could fall through",
+        "Cause you’d give anything for one high",
+        "I wanna try to give you everything we had",
+        "But you’re afraid of that life",
+        "Don’t wanna do anything anymore",
+        "And everything is alright, coming up out the ocean to the daylight",
+        "And everything is alright, drink it up, feel the abandon of your whole world",
+        "And everything is alright, cut it up, kill your emotions, light a cigarette",
+        "Say everything is alright, staring out the window I doubt you feel your soul no more",
+        "You say you’re feeling no pain, been flying all night",
+        "But you’re fading away, I’m losing my mind",
+        "Baby, I don’t know why",
+        "You say you’d rather feel this for one night than live a whole life",
+        "Are you gonna give in, or gonna give up?",
+        "I’ve got a hold on you, I won’t let you out"
+      ]
+    },
+    "news__2021__2__5__i-can-feel-us-slip-into-oblivion": {
+      "title": "I can feel us slip into oblivion",
+      "texts": [
+        "I can feel us slip into oblivion",
+        "We’re pleased to share a new track with you, the first of many off our upcoming album ‘Beyond The Haze’. We’ve been sitting on many of these tracks a long time, so it feels a bit like a long exhale. We hope it finds you well.",
+        "Your love was all I need",
+        "Shut up and let me dream my fucked up dream",
+        "I’m a broken down machine",
+        "I’m rusted up and cold and can’t feel clean",
+        "Does your heartbeat make you wonder if you’re living?",
+        "Will it hurt me, or make me feel more human?",
+        "Cause I can feel us slip into oblivion dreaming of a future",
+        "And I don’t wanna be another semi-dead invalid computer",
+        "Your touch was all I need",
+        "Beneath the rain of bombs and Dub MD’s",
+        "You tell me that I’m free",
+        "But I’m only killing time before the sleep"
+      ]
+    },
+    "news__2021__1__10__notes-from-the-underground": {
+      "title": "Notes from the underground",
+      "texts": [
+        "Notes from the underground",
+        "Hello out there! It’s been a while since we’ve gotten update you all. It’s been a tough year, not just for us but for the whole world, a lot of time for introspection. Music is a double edged sword — on the one hand it’s what keeps us feeling fulfilled, and in the case of 2020, feeling sane. On the other hand, it can be really hard work. You start something new that feels special and it’s like you’re floating on air. But getting it to the place where it feels ready for the world requires patience, both for us and anyone looking forward to hearing it. Sometimes it takes a while for the right pieces to fall into place.",
+        "You churn through things so much, sometimes you wonder what it’s for. But if 2020 did anything, it put that question into clear focus; it’s all about fostering human connection. That’s the thing every person in the world has yearned for collectively. For making music though, that’s always been the case regardless of the year — it’s just been amplified.",
+        "The first part of that connection is with each other — my brother and I aren’t able to physically see each other as much as we’d like, but collaborating on this music is a way to feel connected that a phone call simply can’t replicate. It’s a charge of energy that flows back and forth, unbounded by social distance. When lacking in physical contact with friends, this is addictive, and a driving force behind how much we got done in the past year.",
+        "The second part of that is with you, our fans. I would equate that feeling in two ways. First, just by you playing one of our tracks, it’s almost like I’ve just told you a secret that I know I can trust you with — something I’ve been wanting to get off my chest. It’s a sense of relief, and also gratitude that I have someone like you to tell it to. The second way I can describe that feeling is like making a gift for someone special — you’ve been thinking about it for months, toiling away in secret. Then finally comes the moment you get to give it to them, watching to see the look on their face. Then if you really nailed it, the big payoff — seeing them use the gift in the future. Hopefully it’s the thing they didn’t even know they needed, and not the ill-fitting sweater you’ve spent months knitting!",
+        "Well, I’m here to tell you about the thing you didn’t know you needed — and you didn’t know you needed it because it’s been so damn long since we’ve released anything. But after a year of intense work, we are ready to share some new music with you, and our debut solo LP this spring. Stay tuned and I hope it will find you well!"
+      ]
+    },
+    "news__2017__11__5__new-websitenew-music-coming": {
+      "title": "New Website...New Music In The Works!!!",
+      "texts": [
+        "New Website...New Music In The Works!!!"
+      ]
+    }
+  }
+}
